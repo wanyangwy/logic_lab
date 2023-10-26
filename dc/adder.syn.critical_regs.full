@@ -1,0 +1,301 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : adder
+Version: O-2018.06-SP5-1
+Date   : Sun Oct 22 14:02:52 2023
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[11] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[0] (in)                                0.03       0.03 f
+  U12/CO (CMPR32X2TS)                      0.65       0.68 f
+  U11/CO (CMPR32X2TS)                      0.47       1.15 f
+  U10/CO (CMPR32X2TS)                      0.47       1.63 f
+  U9/CO (CMPR32X2TS)                       0.47       2.10 f
+  U8/CO (CMPR32X2TS)                       0.47       2.57 f
+  U7/CO (CMPR32X2TS)                       0.47       3.05 f
+  U6/CO (CMPR32X2TS)                       0.47       3.52 f
+  U5/CO (CMPR32X2TS)                       0.47       3.99 f
+  U4/CO (CMPR32X2TS)                       0.47       4.46 f
+  U3/CO (CMPR32X2TS)                       0.47       4.94 f
+  U2/CO (CMPR32X2TS)                       0.47       5.41 f
+  U1/S (CMPR32X2TS)                        0.55       5.97 f
+  sum[11] (out)                            0.00       5.97 f
+  data arrival time                                   5.97
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: c_out (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[0] (in)                                0.03       0.03 f
+  U12/CO (CMPR32X2TS)                      0.65       0.68 f
+  U11/CO (CMPR32X2TS)                      0.47       1.15 f
+  U10/CO (CMPR32X2TS)                      0.47       1.63 f
+  U9/CO (CMPR32X2TS)                       0.47       2.10 f
+  U8/CO (CMPR32X2TS)                       0.47       2.57 f
+  U7/CO (CMPR32X2TS)                       0.47       3.05 f
+  U6/CO (CMPR32X2TS)                       0.47       3.52 f
+  U5/CO (CMPR32X2TS)                       0.47       3.99 f
+  U4/CO (CMPR32X2TS)                       0.47       4.46 f
+  U3/CO (CMPR32X2TS)                       0.47       4.94 f
+  U2/CO (CMPR32X2TS)                       0.47       5.41 f
+  U1/CO (CMPR32X2TS)                       0.51       5.92 f
+  c_out (out)                              0.00       5.92 f
+  data arrival time                                   5.92
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[10] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[0] (in)                                0.03       0.03 f
+  U12/CO (CMPR32X2TS)                      0.65       0.68 f
+  U11/CO (CMPR32X2TS)                      0.47       1.15 f
+  U10/CO (CMPR32X2TS)                      0.47       1.63 f
+  U9/CO (CMPR32X2TS)                       0.47       2.10 f
+  U8/CO (CMPR32X2TS)                       0.47       2.57 f
+  U7/CO (CMPR32X2TS)                       0.47       3.05 f
+  U6/CO (CMPR32X2TS)                       0.47       3.52 f
+  U5/CO (CMPR32X2TS)                       0.47       3.99 f
+  U4/CO (CMPR32X2TS)                       0.47       4.46 f
+  U3/CO (CMPR32X2TS)                       0.47       4.94 f
+  U2/S (CMPR32X2TS)                        0.55       5.49 f
+  sum[10] (out)                            0.00       5.49 f
+  data arrival time                                   5.49
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[9] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[0] (in)                                0.03       0.03 f
+  U12/CO (CMPR32X2TS)                      0.65       0.68 f
+  U11/CO (CMPR32X2TS)                      0.47       1.15 f
+  U10/CO (CMPR32X2TS)                      0.47       1.63 f
+  U9/CO (CMPR32X2TS)                       0.47       2.10 f
+  U8/CO (CMPR32X2TS)                       0.47       2.57 f
+  U7/CO (CMPR32X2TS)                       0.47       3.05 f
+  U6/CO (CMPR32X2TS)                       0.47       3.52 f
+  U5/CO (CMPR32X2TS)                       0.47       3.99 f
+  U4/CO (CMPR32X2TS)                       0.47       4.46 f
+  U3/S (CMPR32X2TS)                        0.55       5.02 f
+  sum[9] (out)                             0.00       5.02 f
+  data arrival time                                   5.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[8] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[0] (in)                                0.03       0.03 f
+  U12/CO (CMPR32X2TS)                      0.65       0.68 f
+  U11/CO (CMPR32X2TS)                      0.47       1.15 f
+  U10/CO (CMPR32X2TS)                      0.47       1.63 f
+  U9/CO (CMPR32X2TS)                       0.47       2.10 f
+  U8/CO (CMPR32X2TS)                       0.47       2.57 f
+  U7/CO (CMPR32X2TS)                       0.47       3.05 f
+  U6/CO (CMPR32X2TS)                       0.47       3.52 f
+  U5/CO (CMPR32X2TS)                       0.47       3.99 f
+  U4/S (CMPR32X2TS)                        0.55       4.55 f
+  sum[8] (out)                             0.00       4.55 f
+  data arrival time                                   4.55
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[0] (in)                                0.03       0.03 f
+  U12/CO (CMPR32X2TS)                      0.65       0.68 f
+  U11/CO (CMPR32X2TS)                      0.47       1.15 f
+  U10/CO (CMPR32X2TS)                      0.47       1.63 f
+  U9/CO (CMPR32X2TS)                       0.47       2.10 f
+  U8/CO (CMPR32X2TS)                       0.47       2.57 f
+  U7/CO (CMPR32X2TS)                       0.47       3.05 f
+  U6/CO (CMPR32X2TS)                       0.47       3.52 f
+  U5/S (CMPR32X2TS)                        0.55       4.07 f
+  sum[7] (out)                             0.00       4.07 f
+  data arrival time                                   4.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[6] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[0] (in)                                0.03       0.03 f
+  U12/CO (CMPR32X2TS)                      0.65       0.68 f
+  U11/CO (CMPR32X2TS)                      0.47       1.15 f
+  U10/CO (CMPR32X2TS)                      0.47       1.63 f
+  U9/CO (CMPR32X2TS)                       0.47       2.10 f
+  U8/CO (CMPR32X2TS)                       0.47       2.57 f
+  U7/CO (CMPR32X2TS)                       0.47       3.05 f
+  U6/S (CMPR32X2TS)                        0.55       3.60 f
+  sum[6] (out)                             0.00       3.60 f
+  data arrival time                                   3.60
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[5] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[0] (in)                                0.03       0.03 f
+  U12/CO (CMPR32X2TS)                      0.65       0.68 f
+  U11/CO (CMPR32X2TS)                      0.47       1.15 f
+  U10/CO (CMPR32X2TS)                      0.47       1.63 f
+  U9/CO (CMPR32X2TS)                       0.47       2.10 f
+  U8/CO (CMPR32X2TS)                       0.47       2.57 f
+  U7/S (CMPR32X2TS)                        0.55       3.13 f
+  sum[5] (out)                             0.00       3.13 f
+  data arrival time                                   3.13
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[4] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[0] (in)                                0.03       0.03 f
+  U12/CO (CMPR32X2TS)                      0.65       0.68 f
+  U11/CO (CMPR32X2TS)                      0.47       1.15 f
+  U10/CO (CMPR32X2TS)                      0.47       1.63 f
+  U9/CO (CMPR32X2TS)                       0.47       2.10 f
+  U8/S (CMPR32X2TS)                        0.55       2.65 f
+  sum[4] (out)                             0.00       2.65 f
+  data arrival time                                   2.65
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[0] (in)                                0.03       0.03 f
+  U12/CO (CMPR32X2TS)                      0.65       0.68 f
+  U11/CO (CMPR32X2TS)                      0.47       1.15 f
+  U10/CO (CMPR32X2TS)                      0.47       1.63 f
+  U9/S (CMPR32X2TS)                        0.55       2.18 f
+  sum[3] (out)                             0.00       2.18 f
+  data arrival time                                   2.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[0] (in)                                0.03       0.03 f
+  U12/CO (CMPR32X2TS)                      0.65       0.68 f
+  U11/CO (CMPR32X2TS)                      0.47       1.15 f
+  U10/S (CMPR32X2TS)                       0.55       1.71 f
+  sum[2] (out)                             0.00       1.71 f
+  data arrival time                                   1.71
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[0] (in)                                0.05       0.05 r
+  U12/CO (CMPR32X2TS)                      0.67       0.71 r
+  U11/S (CMPR32X2TS)                       0.55       1.26 f
+  sum[1] (out)                             0.00       1.26 f
+  data arrival time                                   1.26
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[0] (in)                                0.05       0.05 r
+  U12/S (CMPR32X2TS)                       0.80       0.85 f
+  sum[0] (out)                             0.00       0.85 f
+  data arrival time                                   0.85
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

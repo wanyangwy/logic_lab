@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : adder
+Version: O-2018.06-SP5-1
+Date   : Sun Oct 22 14:02:52 2023
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+sum[11] (out)                       5.97 f        infinity     infinity
+c_out (out)                         5.92 f        infinity     infinity
+sum[10] (out)                       5.49 f        infinity     infinity
+sum[9] (out)                        5.02 f        infinity     infinity
+sum[8] (out)                        4.55 f        infinity     infinity
+sum[7] (out)                        4.07 f        infinity     infinity
+sum[6] (out)                        3.60 f        infinity     infinity
+sum[5] (out)                        3.13 f        infinity     infinity
+sum[4] (out)                        2.65 f        infinity     infinity
+sum[3] (out)                        2.18 f        infinity     infinity
+sum[2] (out)                        1.71 f        infinity     infinity
+sum[1] (out)                        1.26 f        infinity     infinity
+sum[0] (out)                        0.85 f        infinity     infinity
+
+1
